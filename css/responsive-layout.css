@@ -2,6 +2,8 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .page_title {
   margin-bottom: 15px;
@@ -14,13 +16,14 @@ section {
 #  background-color: #A52A2A;
    background-color: lightyellow;
 #  width: 90%;
-  height: 150px;
+#  height: 195px;
   font-family: Helvetica;
   color: darkgrey;
   float: left;
   padding: 10px;
-  margin: 1%;
-  text-overflow: clip;
+  margin-left:  auto;
+  margin-right: auto;
+  overflow: auto;
 }
 
 /* Simple Responsive Framework. */
@@ -31,9 +34,18 @@ section {
 .section_title {
   border: 1px solid black;
   width: 150px;
-  margin-top: 0px;
+  margin-top: -10px;
+  margin-right: -10px;
   float: right;
   text-align:center;
+  background-color: lightblue;
+  color: black;
+}
+
+.section_text {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  height: 190px;
 }
 
 /********** Large devices only **********/
@@ -52,7 +64,7 @@ section {
     width: 25%;
   }
   .col-lg-4 {
-    width: 33.33%;
+    width: 33.3%;
   }
   .col-lg-5 {
     width: 41.66%;
@@ -78,6 +90,9 @@ section {
   .col-lg-12 {
     width: 100%;
   }
+  .ajdust-font {
+    font-size: 305%;
+  }
 }
 
 /********** Medium devices only **********/
@@ -102,7 +117,7 @@ section {
     width: 41.66%;
   }
   .col-md-6 {
-    width: 50%;
+    width: 50.0%;
   }
   .col-md-7 {
     width: 58.33%;
@@ -164,6 +179,6 @@ section {
     width: 91.66%;
   }
   .col-sm-12 {
-    width: 100%;
+    width: 99.5%;
   }
 }
