@@ -4,11 +4,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 18px;
 }
 .page_title {
   margin-bottom: 15px;
   text-align: center;
   color: orange;
+#  font-size: 175%
 }
 
 section {
@@ -16,7 +18,7 @@ section {
 #  background-color: #A52A2A;
    background-color: lightyellow;
 #  width: 90%;
-#  height: 195px;
+  height: 220px;
   font-family: Helvetica;
   color: darkgrey;
   float: left;
@@ -40,13 +42,16 @@ section {
   text-align:center;
   background-color: lightblue;
   color: black;
+  font-size: 125%;
 }
 
 .section_text {
   padding-top: 15px;
   padding-bottom: 10px;
-  height: 190px;
+  clear: right;
+  font-size: 100%;
 }
+
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
@@ -65,6 +70,7 @@ section {
   }
   .col-lg-4 {
     width: 33.3%;
+#    font-size: 75%;
   }
   .col-lg-5 {
     width: 41.66%;
@@ -90,8 +96,11 @@ section {
   .col-lg-12 {
     width: 100%;
   }
-  .ajdust-font {
-    font-size: 305%;
+  .title-font-size-lg {
+    font-size: 150%;
+  }
+  .section-title-font-size-lg {
+    font-size: 110%;
   }
 }
 
@@ -118,6 +127,7 @@ section {
   }
   .col-md-6 {
     width: 50.0%;
+#    font-size: 90%;
   }
   .col-md-7 {
     width: 58.33%;
@@ -136,6 +146,13 @@ section {
   }
   .col-md-12 {
     width: 100%;
+#    font-size: 90%;
+  }
+  .title-font-size-md {
+    font-size: 175%;
+  }
+  .section-title-font-size-md {
+    font-size: 120%;
   }
 }
 
@@ -180,5 +197,11 @@ section {
   }
   .col-sm-12 {
     width: 99.5%;
+  }
+  .title-font-size-sm {
+    font-size: 200%;
+  }
+  .section-title-font-size-sm {
+    font-size: 130%;
   }
 }
